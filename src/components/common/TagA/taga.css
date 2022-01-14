@@ -1,0 +1,11 @@
+.footer a {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.875rem;
+  text-decoration: none;
+  color: #000;
+}
+.footer a:hover {
+  cursor: pointer;
+  color: blue;
+}

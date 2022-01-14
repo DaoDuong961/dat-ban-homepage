@@ -1,0 +1,17 @@
+.btn--black {
+  width: 135px;
+  height: 40px;
+  transition: all 0.25s;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn--black:hover {
+  color: #000 !important;
+  background-color: #e2e2e2 !important;
+  border: none;
+}

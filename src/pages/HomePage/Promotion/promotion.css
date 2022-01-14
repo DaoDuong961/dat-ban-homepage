@@ -1,0 +1,11 @@
+.promotion h2{
+    margin: 0;
+}
+.promotion .promo__img {
+  display: flex;
+  justify-content: space-between;
+}
+.promotion .promo__img img {
+  width: 34.8rem;
+  height: 37.6875rem;
+}

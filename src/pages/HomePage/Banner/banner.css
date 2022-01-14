@@ -1,0 +1,30 @@
+.banner {
+  position: relative;
+}
+.banner .banner__item {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 3.75rem;
+  transform: translateY(-50%);
+}
+.banner .banner__item .banner__text {
+  width: 30.2rem;
+}
+.banner .banner__item .banner__text p {
+  margin-top: 0.8125rem;
+}
+.banner .banner__item button {
+  margin-top: 1.9375rem;
+  padding: 0 1.4375rem;
+  width: 11.3125rem;
+}
+.banner .bg__color {
+  background-image: url(../../../assets/images/banner1.jpg);
+  margin: 1.3125rem 1.5625rem;
+  height: 410px;
+  background-position: center;
+  background-size: cover;
+  padding-left: 2.1875rem;
+  filter: blur(3px);
+}

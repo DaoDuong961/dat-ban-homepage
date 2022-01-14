@@ -1,0 +1,102 @@
+.root {
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+}
+.header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .menu ul {
+  align-items: flex-start;
+}
+.header .menu ul li {
+  display: inline-block;
+}
+.header .menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  line-height: 2.5rem;
+  margin-right: 2.5rem;
+}
+.header .header__right .search__account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header__right .search__account .search {
+  border-bottom: 1px solid #000;
+  width: 165px;
+  position: relative;
+}
+.header .header__right .search__account .search input {
+  border-color: transparent;
+  padding: 0.1875rem 0;
+}
+.header .header__right .search__account .search input::placeholder {
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  font-family: "Roboto", sans-serif;
+}
+.header .header__right .search__account .search input:focus {
+  outline: none;
+}
+.header .header__right .search__account .search .img__icon1 {
+  width: 6%;
+  position: absolute;
+  right: -3.5%;
+  top: 20.33%;
+  background-color: white;
+  padding: 5px;
+}
+.header .header__right .search__account {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .header__right .search__account .account {
+  display: flex;
+  justify-content: space-around;
+}
+.header .header__right .search__account .account .img__icon2 {
+  width: 15%;
+}
+.header .header__right .search__account .account{
+  text-decoration: none;
+  color: #000;
+}
+.header .header__right .search__account .account span {
+  margin-left: -15px;
+}
+.header .header__right .search__account .mg__right {
+  margin-right: 1.875rem;
+}
+.header .header__right .search__account .cart {
+  position: relative;
+}
+.header .header__right .search__account .cart .img__icon3 {
+  width: 28%;
+}
+.header .header__right .search__account .cart .number {
+  width: 1.125rem;
+  height: 1.135rem;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0.875rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.125rem;
+}
+.header .header__right .search__account .cart span {
+  font-size: 0.75rem;
+  color: #fff;
+}
+

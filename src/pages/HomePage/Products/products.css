@@ -1,0 +1,9 @@
+/* .products .text__head {
+  margin: 0;
+} */
+.products .products__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+

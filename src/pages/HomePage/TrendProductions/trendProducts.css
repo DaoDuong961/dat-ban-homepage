@@ -1,0 +1,7 @@
+.trendProducts .trendprocts__item {
+  display: flex;
+  justify-content: space-between;
+}
+.trendProducts .trendprocts__item .card {
+  width: 31.5%;
+}
